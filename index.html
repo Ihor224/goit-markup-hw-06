@@ -50,7 +50,9 @@
       <section class="hero">
         <div class="overlay">
           <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-          <button data-modal-open class="button">Заказать услугу</button>
+          <button data-modal-open class="button hero-button">
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -472,10 +474,10 @@
           <div class="form-submit">
             <form action="" class="form-footer">
               <input type="email" name="mail" placeholder="E-mail" />
+              <button type="submit" class="button icon-subscribe">
+                Подписаться
+              </button>
             </form>
-            <button type="submit" class="button icon-subscribe">
-              Подписаться
-            </button>
           </div>
         </div>
       </div>
@@ -561,14 +563,19 @@
             rows="8"
             class="comment-input"
             placeholder=" "
-          >
-          </textarea>
+          ></textarea>
+
           <label for="comment" class="comment-label">Коментарий</label>
         </div>
 
         <div class="form-policy">
           <label class="label">
-            <input class="checkbox" type="checkbox" name="policy" />
+            <input
+              class="checkbox"
+              value="accept_policy"
+              type="checkbox"
+              name="policy"
+            />
             <span class="policy-icon"></span>
             Соглашаюсь с рассылкой и принимаю
             <a href="" class="policy-link">Условия договора</a>

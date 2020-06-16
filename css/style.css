@@ -192,6 +192,11 @@ body {
   text-align: center;
 }
 
+.hero-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -383,7 +388,7 @@ input:focus {
 .checkbox:checked + .policy-icon {
   background-color: var(--accent);
   border-color: var(--accent);
-  background-image: url(/images/full-check.svg);
+  background-image: url(../images/full-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
@@ -414,6 +419,9 @@ textarea {
 /* Button */
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: max-content;
   height: 38px;
   padding: 0 24px;
@@ -425,6 +433,7 @@ button {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
 
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -706,7 +715,7 @@ button:focus {
 }
 
 .logo-footer {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 
   color: var(--white-text-color);
 
@@ -743,7 +752,7 @@ button:focus {
 }
 
 .block-contact {
-  margin-right: 179px;
+  margin-right: 70px;
 }
 
 .contacts .links {
@@ -810,7 +819,7 @@ button:focus {
   align-items: center;
 
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 28px;
 
   color: var(--white-text-color);
   background-color: var(--accent);
@@ -824,7 +833,7 @@ button:focus {
   letter-spacing: 0.06em;
 }
 
-.form-submit {
+.form-footer {
   display: flex;
 }
 
